@@ -149,7 +149,11 @@ form > a.botao:hover {
     border-radius: 5px;
     
     padding-left: 10px;
-    transform: translateY(-9px);
-
-    
+    transform: translateY(-9px);  
+ }
+ div.campo > input:focus-within {
+    background-color: white;
+ }
+ div#senha > input:focus-within {
+    background-color: white;
  }
